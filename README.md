@@ -169,6 +169,25 @@ bool = isWriteOnlyPropertyIn( void 0, 'a' );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-read-only-property-in`][@stdlib/assert/is-read-only-property-in]: test if an object's own or inherited property is read-only.
+-   [`@stdlib/assert/is-read-write-property-in`][@stdlib/assert/is-read-write-property-in]: test if an object's own and inherited property is readable and writable.
+-   [`@stdlib/assert/is-writable-property-in`][@stdlib/assert/is-writable-property-in]: test if an object's own or inherited property is writable.
+-   [`@stdlib/assert/is-write-only-property`][@stdlib/assert/is-write-only-property]: test if an object's own property is write-only.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -225,6 +244,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-write-only-property-in/main/LICENSE
 
 [@stdlib/utils/define-write-only-accessor]: https://github.com/stdlib-js/utils-define-write-only-accessor
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-read-only-property-in]: https://github.com/stdlib-js/assert-is-read-only-property-in
+
+[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in
+
+[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert-is-writable-property-in
+
+[@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert-is-write-only-property
+
+<!-- </related-links> -->
 
 </section>
 
