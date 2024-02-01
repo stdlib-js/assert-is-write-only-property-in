@@ -35,38 +35,32 @@ limitations under the License.
 
 > Test if an object's own or inherited property is [write-only][@stdlib/utils/define-write-only-accessor].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-write-only-property-in
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isWriteOnlyPropertyIn = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isWriteOnlyPropertyIn = require( 'path/to/vendor/umd/assert-is-write-only-property-in/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isWriteOnlyPropertyIn;
-})();
-</script>
+var isWriteOnlyPropertyIn = require( '@stdlib/assert-is-write-only-property-in' );
 ```
 
 #### isWriteOnlyPropertyIn( value, property )
@@ -161,13 +155,8 @@ bool = isWriteOnlyPropertyIn( obj, 'accessor' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isWriteOnlyPropertyIn = require( '@stdlib/assert-is-write-only-property-in' );
 
 var bool = isWriteOnlyPropertyIn( 'a', 'length' );
 // returns false
@@ -195,11 +184,6 @@ bool = isWriteOnlyPropertyIn( null, 'a' );
 
 bool = isWriteOnlyPropertyIn( void 0, 'a' );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -286,23 +270,26 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/assert-is-write-only-property-in/tree/deno
+[deno-readme]: https://github.com/stdlib-js/assert-is-write-only-property-in/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/assert-is-write-only-property-in/tree/umd
+[umd-readme]: https://github.com/stdlib-js/assert-is-write-only-property-in/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/assert-is-write-only-property-in/tree/esm
+[esm-readme]: https://github.com/stdlib-js/assert-is-write-only-property-in/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/assert-is-write-only-property-in/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-write-only-property-in/main/LICENSE
 
-[@stdlib/utils/define-write-only-accessor]: https://github.com/stdlib-js/utils-define-write-only-accessor/tree/umd
+[@stdlib/utils/define-write-only-accessor]: https://github.com/stdlib-js/utils-define-write-only-accessor
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-read-only-property-in]: https://github.com/stdlib-js/assert-is-read-only-property-in/tree/umd
+[@stdlib/assert/is-read-only-property-in]: https://github.com/stdlib-js/assert-is-read-only-property-in
 
-[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in/tree/umd
+[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in
 
-[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert-is-writable-property-in/tree/umd
+[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert-is-writable-property-in
 
-[@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert-is-write-only-property/tree/umd
+[@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert-is-write-only-property
 
 <!-- </related-links> -->
 
