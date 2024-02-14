@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isWriteOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@deno/mod.js';
+import isWriteOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@v0.2.0-deno/mod.js';
 ```
 
 #### isWriteOnlyPropertyIn( value, property )
@@ -138,7 +138,7 @@ bool = isWriteOnlyPropertyIn( obj, 'accessor' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isWriteOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@deno/mod.js';
+import isWriteOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-write-only-property-in@v0.2.0-deno/mod.js';
 
 var bool = isWriteOnlyPropertyIn( 'a', 'length' );
 // returns false
